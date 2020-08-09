@@ -12,7 +12,7 @@ import DocCard from "@/components/DocCard.vue";
 export default {
   name: "HelloWorld",
   components: {
-    DocCard
+    DocCard,
   },
   props: ["docs"],
 };

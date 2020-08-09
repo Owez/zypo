@@ -10,7 +10,9 @@
     </div>
     <div class="nav-bottom">
       <div class="nav-left">
-        <router-link to="/dash" class="nav-link">Dashboard</router-link>
+        <router-link to="/login" class="btn btn-white">Sign in</router-link>
+        <router-link to="/join" class="btn">Sign up</router-link>
+        <!-- <router-link to="/dash" class="nav-link">Dashboard</router-link> -->
       </div>
     </div>
   </div>
@@ -27,6 +29,7 @@ export default {
   background-color: #454b4e;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-left {
@@ -35,7 +38,7 @@ export default {
 }
 
 .nav-link {
-  padding: 1rem;
+  margin: 1rem;
 }
 
 .nav-right {

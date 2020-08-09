@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Splashscreen />
+    <Splashscreen title="Zypo" subtitle="The word processor for a new generation." />
     <div class="container">
       <p>Coming soon!</p>
     </div>
