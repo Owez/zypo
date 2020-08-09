@@ -38,7 +38,7 @@ export default {
 }
 
 .nav-link {
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .nav-right {
