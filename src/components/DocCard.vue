@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="{ path: 'doc', query: { 'id': doc.id } }">
+  <router-link :to="{ path: 'editor', query: { 'id': doc.id } }">
     <div class="doc-card">
       <h2 class="card-text">{{ doc.title }}</h2>
       <hr />

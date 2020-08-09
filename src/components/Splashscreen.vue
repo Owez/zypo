@@ -27,14 +27,4 @@ export default {
 .splashscreen-inner {
   text-align: center;
 }
-
-.title {
-  font-size: 3.5rem;
-  margin: 0;
-}
-
-.subtitle {
-  font-size: 1.25rem;
-  color: #b8b8b8;
-}
 </style>
