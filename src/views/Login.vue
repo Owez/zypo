@@ -1,16 +1,49 @@
 <template>
-    <div class="login">
-        <Splashscreen title="Sign in" subtitle="More about this topic is coming soon!" />
+  <div class="login">
+    <Splashscreen title="Sign in" subtitle="Sign into your Zypo account" />
+    <div class="fullscreen-prompt">
+      <div class="fullscreen-prompt-inner">
+        <form action>
+          <p class="fullscreen-prompt-text">
+            Username or email
+            <span class="required-text">*</span>
+          </p>
+          <input type="text" class="fullscreen-prompt-input" />
+          <p class="fullscreen-prompt-text">
+            Password
+            <span class="required-text">*</span>
+          </p>
+          <input type="password" class="fullscreen-prompt-input" />
+          <input class="btn fullscreen-prompt-btn" type="button" value="Sign in" />
+        </form>
+      </div>
     </div>
+    <div class="fullscreen-prompt">
+      <div class="fullscreen-prompt-inner">
+        <p>
+          Don't have an account?
+          <router-link to="/join" class="join-link">Join Zypo</router-link>
+        </p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 import Splashscreen from "@/components/Splashscreen.vue";
 
 export default {
-    name: "Login",
-    components: {
-        Splashscreen
-    }
+  name: "Login",
+  components: {
+    Splashscreen,
+  },
 };
 </script>
+
+<style scoped>
+.join-link {
+  color: #34a7ff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+</style>
