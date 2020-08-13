@@ -22,7 +22,7 @@
       <div class="fullscreen-prompt-inner">
         <p>
           Don't have an account?
-          <router-link to="/join" class="join-link">Join Zypo</router-link>
+          <router-link to="/join" class="join-link">Join Zypo.app</router-link>
         </p>
       </div>
     </div>

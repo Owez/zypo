@@ -1,6 +1,6 @@
 <template>
   <div class="join">
-    <Splashscreen title="Create your account" subtitle="Join Zypo" />
+    <Splashscreen title="Create your account" subtitle="Join Zypo.app" />
     <div class="fullscreen-prompt">
       <div class="fullscreen-prompt-inner">
         <form action>
@@ -19,7 +19,7 @@
             <span class="required-text">*</span>
           </p>
           <input type="password" class="fullscreen-prompt-input" />
-          <input class="btn fullscreen-prompt-btn" type="button" value="Join Zypo" />
+          <input class="btn fullscreen-prompt-btn" type="button" value="Join Zypo.app" />
         </form>
       </div>
     </div>
