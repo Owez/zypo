@@ -10,7 +10,7 @@
 <script>
 export default {
   name: "Splashscreen",
-  props: ["title", "subtitle"]
+  props: ["title", "subtitle"],
 };
 </script>
 

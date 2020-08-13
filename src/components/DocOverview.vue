@@ -1,12 +1,13 @@
 <template>
   <div class="doc-overview">
-    <div v-bind:key="doc.id" v-for="doc in docs">
+    <div v-bind:key="doc.id" v-for="doc in all_docs">
       <DocCard v-bind:doc="doc" />
     </div>
   </div>
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 import DocCard from "@/components/DocCard.vue";
 
 export default {
@@ -14,7 +15,7 @@ export default {
   components: {
     DocCard,
   },
-  props: ["docs"],
+  computed: mapGetters(["all_docs"]),
 };
 </script>
 

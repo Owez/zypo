@@ -13,7 +13,7 @@ import Splashscreen from "@/components/Splashscreen.vue";
 export default {
   name: "Home",
   components: {
-    Splashscreen
-  }
+    Splashscreen,
+  },
 };
 </script>

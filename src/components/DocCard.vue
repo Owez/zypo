@@ -32,7 +32,7 @@ export default {
 }
 
 hr {
-  border: 3px solid #5c6468;
+  border: 2px solid #5c6468;
   border-radius: 0.25rem;
   margin: 0;
 }
