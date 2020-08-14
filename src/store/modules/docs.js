@@ -15,11 +15,13 @@ const state = {
       // content:
       //   "The long content ptent part of thistent part of thistent part of thistent part of thisart of this thing!",
     },
-  ]
+  ],
+  cur_doc: { id: 23213, tagline: "This is a work-in-progress feature", content: "This contains the main content for this feature" }
 };
 
 const getters = {
-  all_docs: (state) => state.docs
+  all_docs: (state) => state.docs,
+  cur_doc: (state) => state.cur_doc // NOTE: this should be updated with current document and such
 };
 
 const actions = {};

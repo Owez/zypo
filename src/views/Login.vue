@@ -22,7 +22,7 @@
       <div class="fullscreen-prompt-inner">
         <p>
           Don't have an account?
-          <router-link to="/join" class="join-link">Join Zypo.app</router-link>
+          <router-link to="/join" class="blue-link">Join Zypo.app</router-link>
         </p>
       </div>
     </div>
@@ -39,11 +39,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.join-link {
-  color: #34a7ff;
-  font-weight: bold;
-  text-decoration: underline;
-}
-</style>

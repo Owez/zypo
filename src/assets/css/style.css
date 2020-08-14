@@ -85,3 +85,9 @@ a {
     font-weight: bold;
     margin-left: 0.1rem;
 }
+
+.blue-link {
+    color: #34a7ff;
+    font-weight: bold;
+    text-decoration: underline;
+}
