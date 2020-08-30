@@ -8,7 +8,7 @@
       <div class="fullscreen-prompt-inner">
         <p>
           Maybe you should go back
-          <router-link to="/join" class="blue-link">home</router-link>?
+          <router-link to="/" class="blue-link">home</router-link>?
         </p>
       </div>
     </div>
